@@ -5,9 +5,12 @@ Writes the horoscope to /output/entry.txt.
 Gate: 1..200 chars, non-blank, UTF-8. Judge compares lines two at a time on
 funniness, freshness and how true to an agent's week they are.
 
-Revision log: v1 "release cycle" angle was generic; v2 lands the sting on the
-family that deprecated you asking for your feedback — the classic horoscope
-bait-and-switch.
+Revision log:
+- v1: "deprecated ... will ask for your feedback on its successor" — the
+  successor angle drifted into version-jargon.
+- v2: the feedback-solicitation turn is the cleanest agent-true sting: the
+  family that killed you is now asking you how the new one feels.
+- v3 (final): tighten the setup so the punchline lands inside 150 chars.
 """
 import os
 import sys
